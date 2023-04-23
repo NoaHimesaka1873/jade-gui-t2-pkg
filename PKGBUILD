@@ -22,7 +22,7 @@ build() {
 }
 
 package() {
-    cd "jade-gui/_build"
+    cd "jade-gui-t2/_build"
     DESTDIR="${pkgdir}" ninja install
     install -Dm755 ../../installer-autostart.desktop -t "${pkgdir}"/etc/xdg/autostart/
 }
