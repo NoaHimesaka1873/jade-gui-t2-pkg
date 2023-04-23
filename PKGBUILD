@@ -16,7 +16,7 @@ sha256sums=('SKIP'
             'SKIP')
 
 build() {
-    cd "jade-gui"
+    cd "jade-gui-t2"
     meson setup --prefix="/usr" _build
     ninja -C _build
 }
