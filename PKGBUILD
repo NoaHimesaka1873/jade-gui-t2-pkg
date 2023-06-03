@@ -11,7 +11,7 @@ arch=('x86_64' 'aarch64')
 url="https://github.com/NoaHimesaka1873/jade-gui-t2"
 depends=('blend-inst-t2' 'openssl' 'libadwaita' 'python-pytz' 'gparted' 'vte4' 'gtksourceview5' 'python-tzlocal' 'python-requests' 'reflector')
 makedepends=('meson' 'ninja' 'desktop-file-utils' 'appstream-glib' 'gtk4')
-source=("git+file://[BASE_ASSEMBLE_PATH]/projects/jade-gui"
+source=("git+file://[BASE_ASSEMBLE_PATH]/projects/jade-gui-t2"
         "installer-autostart.desktop")
 sha256sums=('SKIP'
             'SKIP')
